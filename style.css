@@ -1,0 +1,43 @@
+/*
+primary color:443627
+secondary color:EFDCAB    
+body background color:F2F6D0
+doo doo color :D98324
+*/
+body {
+    background-color:#FFA725 ;
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+header {
+    width: 100%;
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 3px solid #C14600;
+}
+.logo img {
+    width: 200px;
+    height: 200px;
+    padding: 0px 100px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 1px 10px;
+}
+nav ul li {
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color:#09122C;
+}
+nav ul li a:hover {
+    color:#27391C ;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-color: purple;
+    background-color: orangered;
+    border-radius: 1px 1;
+}
